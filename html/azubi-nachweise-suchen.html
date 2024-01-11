@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/changed/changed.css ">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-body-secondary">
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-sm-auto sticky-top " style="background-color: #0a4275;">
+            <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top mt-1 mb-1 main-panel-nav">
+
+                <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Home">
+                            <i class="bi-house fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <i class="bi-speedometer2 fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Orders">
+                            <i class="bi-table fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Products">
+                            <i class="bi-heart fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                           data-bs-placement="right" data-bs-original-title="Customers">
+                            <i class="bi-people fs-1"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <a href="#"
+                       class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle"
+                       id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi-person-circle h2"></i>
+                    </a>
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-9 p-3 min-vh-100 container-fluid m-auto ">
+            <header class=" text-white  p-4 mb-3 d-flex justify-content-between align-items-center"
+                    style="background-color: #0a4275;">
+                <p class="m-0"> Ausbildungsnachweise suchen</p>
+            </header>
+
+            <section class="position-relative ">
+
+                <div class="mb-4 d-flex justify-content-center align-items-center">
+                    <form action="">
+                        <label for="jahr">Ausbildungsjahr:</label>
+                        <select aria-label="Default select example" id="jahr">
+                            <option selected>Drittes Schuljahr</option>
+                            <option >Zweites Schuljahr</option>
+                            <option >Erstes Schuljahr</option>
+                        </select>
+                        <label for="monat">Monat:</label>
+                        <select aria-label="Default select example" id="monat">
+                            <option selected>Januar</option>
+                            <option >Februar</option>
+                            <option >März</option>
+                            <option >April</option>
+                            <option >Mai</option>
+                            <option >Juni</option>
+                            <option >Juli</option>w
+                            <option >August</option>
+                            <option >September</option>
+                            <option >October</option>
+                            <option >November</option>
+                            <option >Dezember</option>
+                        </select>
+                        <label for="status">Genemight:</label>
+                        <select aria-label="Default select example" id="status">
+                            <option selected>Ja</option>
+                            <option >Nein</option>
+                        </select>
+                        <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+
+                    </form>
+                </div>
+                <table class="table table-list">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Wocheanfang</th>
+                        <th scope="col">Wochenende</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Entwurf</th>
+                        <th scope="col">Aktionen</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>13.09.2023</td>
+                        <td>20.09.2023</td>
+                        <td>Ja</td>
+                        <td>Nein</td>
+                        <td>
+                            <button class="bg-white table-hover "><i class="bi bi-file-earmark-x"></i></button>
+                            <button class="bg-white"><i class="bi bi-pencil-square"></i></button>
+                            <button class="bg-white"><i class="bi bi-file-arrow-down"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>21.09.2023</td>
+                        <td>28.09.2023</td>
+                        <td>Nein</td>
+                        <td>Ja</td>
+                        <td>
+                            <button class="bg-white"><i class="bi bi-file-earmark-x"></i></button>
+                            <button class="bg-white"><i class="bi bi-pencil-square"></i></button>
+                            <button class="bg-white"><i class="bi bi-file-arrow-down"></i></button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
